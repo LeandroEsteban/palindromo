@@ -1,6 +1,6 @@
 # palindromo
-1. Primero se identifica lo solicitado (crear programa para verificar si una palabra es palindroma o no)
-2. Se realiza el codigo
+1. Primero se identifica lo solicitado (crear programa para verificar si una palabra es palindroma o no), se crean metodos para ingresar una palabra, verificar si es una palabra (es decir, que solo contenga letras), y otro metodo para verificar si la palabra es palindroma o no
+3. Se realiza el codigo
 ![4](https://github.com/LeandroEsteban/palindromo/assets/127903058/5b81840a-ca50-4458-9cf0-6b434cacd647)
 4. Se crean test para casos como: ingresar un numero, una cadena vacia, una palabra palindroma y otra que no lo es.
 ![5](https://github.com/LeandroEsteban/palindromo/assets/127903058/b564e389-ff94-4bfd-b599-e98353ce7481)
