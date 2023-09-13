@@ -5,15 +5,27 @@ import static org.junit.jupiter.api.Assertions.*;
 class palindromoTest {
 
     @Test
-    public void testEsPalabraValida_Numero() {
-        assertFalse(palindromo.esPalabraValida("200"));
+    public void testTele() {
+        assertTrue(palindromo.esPalindromo("La tele letal"));
     }
-
     @Test
-    public void testCadenavacia() {
+    public void testCadenavacia(){
         assertTrue(palindromo.esPalindromo(""));
-        assertTrue(palindromo.esPalindromo("aaabccbaaa"));
-        assertFalse(palindromo.esPalindromo("ahabccbaaa"));
-        assertFalse(palindromo.esPalindromo("La tele leta"));
+    }
+    @Test
+    public void testCaracteres(){
+        assertTrue(palindromo.esPalindromo("0_0 : @a-a@ : 0_0"));
+    }
+    @Test
+    public void testEspalindromo(){
+        assertTrue(palindromo.esPalindromo("No subas, abusón"));
+    }
+    @Test
+    public void testNumero(){
+        assertTrue(palindromo.esPalindromo("101101"));
+    }
+    @Test
+    public void testNopalindomo(){
+        assertFalse(palindromo.esPalindromo("@axsomosxc@"));
     }
 }
